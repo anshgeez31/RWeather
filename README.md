@@ -47,20 +47,11 @@ Welcome to the Simple Weather App project!
 |  dark Prple Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #AA77FF |
 
 
-
-  
-## 🚀 About Me
-I'm a Btech student of IIIT Allahabad. I have currently learned Android development in Kotlin and made some apps by the use of firebase authentication  and its realtime database
-
-
 ## Installation
 . Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/WeatherApp.git
-    
-
-
 
 ## Lessons Learned
 In the developing this app, I learnt alot of things about firebase database and storage , how they can manage and shown on the screen .
