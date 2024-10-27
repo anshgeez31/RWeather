@@ -59,24 +59,3 @@ Other things I have also learn about the architecture of an app like MVVM and ot
 ## Support
 
 For support, email: kothariansh31@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
