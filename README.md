@@ -8,8 +8,7 @@ Welcome to the Simple Weather App project!
 - OpenWeatherMap API key (see [API Key](#api-key))
 
   ## Demo
--Insert gif or link to demo
--Video link: https://drive.google.com/file/d/1uW9wq3ahnyHdb8g1xSEGkIQQu1LW6wo2/view?usp=drivesdk
+-Video link: https://drive.google.com/file/d/1mn7r1Nziz_ujF2B1MxUp7kEsti2PaR7t/view?usp=sharing
 
   ## ScreenShots
 #Here, are the splash screen,home screen, and HomeScreen (location Changed) of the app.
