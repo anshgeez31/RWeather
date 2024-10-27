@@ -99,6 +99,7 @@ class MainActivity : AppCompatActivity() {
             .addConverterFactory(GsonConverterFactory.create())
             .baseUrl("https://api.openweathermap.org/data/2.5/")
             .build().create(ApiInterface::class.java)
+
         val response=retrofit.getWeatherData(cityName, appid = "5c2b66013088cdf4be36dcf553ca2bae", units = "metric")
         response.enqueue(object : Callback<RWeatherApp>{
             override fun onResponse(call: Call<RWeatherApp>, response: Response<RWeatherApp>) {
@@ -130,18 +131,12 @@ class MainActivity : AppCompatActivity() {
                     binding.sealevelTv.text="$seaLevel hPa"
                     binding.conditionTv.text=condition
                     binding.dayTv.text= dayName(System.currentTimeMillis())
-                        binding.locationTv.text="$cityName"
+                    binding.locationTv.text="$cityName"
 
                     Changebackground(condition)
-
-
-
-
 //                    Log.d("TAG","onResponse:$temperature")
-
                 }
             }
-
             override fun onFailure(call: Call<RWeatherApp>, t: Throwable) {
                 TODO("Not yet implemented")
             }
@@ -172,8 +167,6 @@ class MainActivity : AppCompatActivity() {
                 binding.root.setBackgroundResource(R.drawable.sunny_background)
                 binding.animatedV.setAnimation(R.raw.sun)
             }
-
-
         }
 
         binding.animatedV.playAnimation()
