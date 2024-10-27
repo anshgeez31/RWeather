@@ -5,7 +5,7 @@ Welcome to the Simple Weather App project!
 ### Prerequisites
 
 - Android Studio installed
-- OpenWeatherMap API key (see [API Key](#api-key))
+- OpenWeatherMap API key (5c2b66013088cdf4be36dcf553ca2bae)
 
   ## Demo
 -Video link: https://drive.google.com/file/d/1mn7r1Nziz_ujF2B1MxUp7kEsti2PaR7t/view?usp=sharing
